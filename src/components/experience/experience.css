@@ -1,15 +1,31 @@
 .experience__container {
     display: grid;
-    /*grid-template-columns: 1fr 1fr;*/
+    grid-template-columns: 1fr;
     gap: 2rem;
 }
 
 .experience__container > div {
     background: var(--color-bg-variant);
-    padding: 2.4rem 5rem;
+    padding: 1rem 2rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+}
+
+.experience__content-promitia {
+    border-radius: 2rem;
+    overflow: hidden;
+    /*transform: rotate(10deg);*/
+    transition: var(--transition);
+    width: 410px;
+}
+
+.experience__content-claro {
+    border-radius: 2rem;
+    overflow: hidden;
+    /*transform: rotate(10deg);*/
+    transition: var(--transition);
+    width: 300px;
 }
 
 .experience__container > div:hover {
@@ -25,17 +41,18 @@
 }
 
 .experience__content {
-    display: grid;
+    display: flex;
+    gap: 2rem  ;
 }
 
 .experience__details {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    /*grid-template-columns: 1fr*/
     gap: 1rem;
 }
 
 .experience__details-icon {
-    margin-top: 6px;
+    margin-top: 3px;
     color: var(--color-primary);
 }
 
