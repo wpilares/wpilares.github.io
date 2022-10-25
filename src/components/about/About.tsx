@@ -1,5 +1,5 @@
 import React from "react";
-import "./about.css"
+import "./about.css";
 
 const About = () => {
     return (
@@ -11,7 +11,7 @@ const About = () => {
                 <div className="container about__container">
                     <div className="about__me">
                         <div className="about__me-image">
-                            <img src="/src/assets/ME.jpg" alt ="About Image"/>
+                            <img src="../../assets/ME.jpg" alt ="About Image"/>
                         </div>
                     </div>
 
