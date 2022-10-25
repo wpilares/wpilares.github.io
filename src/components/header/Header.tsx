@@ -13,7 +13,7 @@ const Header = () => {
                     <CTA/>
 
                     <div className="me">
-                        <img src="/src/assets/me.jpg" alt="me"/>
+                        <img src="/src/assets/me.png" alt="me"/>
                     </div>
 
                 </div>

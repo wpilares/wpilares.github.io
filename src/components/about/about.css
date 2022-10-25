@@ -32,6 +32,7 @@
 .about__content p {
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
+    text-align: justify;
 }
 
 /*Media Queries (Medium Devices)*/
@@ -48,6 +49,10 @@
 
     .about__content p {
         margin: 1rem 0 1.5rem;
+    }
+
+    .about__content {
+        text-align: center;
     }
 }
 
