@@ -6,6 +6,7 @@ import Experience from "./components/experience/Experience";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 
+import './assets/images/me.png';
 
 const App = () => {
 

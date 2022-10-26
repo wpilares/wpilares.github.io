@@ -14,7 +14,7 @@ const Experience = () => {
                         <h3>Promitia</h3>
                         <div className="experience__content">
                             <div className="experience__content-promitia">
-                                <img src="/src/assets/promitia.png" alt ="About Image"/>
+                                <img src="/src/assets/images/promitia.png" alt ="About Image"/>
                             </div>
                             <article className="experience__subdetails">
                                 <div className="experience__details">
@@ -38,7 +38,7 @@ const Experience = () => {
                         <h3>America Móvil Perú</h3>
                         <div className="experience__content">
                             <div className="experience__content-claro">
-                                <img src="/src/assets/claro.jpg" alt ="About Image"/>
+                                <img src="/src/assets/images/claro.jpg" alt ="About Image"/>
                             </div>
                             <article className="experience__details">
                                 {/*<BsPatchCheckFill className="experience__details-icon" />*/}
