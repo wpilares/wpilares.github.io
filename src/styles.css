@@ -9,10 +9,10 @@
 }
 
 :root {
-    --color-bg: #141228;
+    --color-bg: #16161A;
     --color-bg-variant: #2e3442;
-    --color-primary: #e35d5e;
-    --color-primary-variant: #f1ca7f;
+    --color-primary: #7f5af0;
+    --color-primary-variant: #2cb67d;
     --color-white: #f6f1ee;
     --color-light: #b7d2cd;
 
@@ -36,6 +36,7 @@ body{
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
+    background-image: url("../src/assets/cubes.png");
 }
 
 .container {

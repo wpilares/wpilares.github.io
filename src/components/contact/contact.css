@@ -9,6 +9,7 @@
 .contact__options {
     display: grid;
     /*flex-direction: row;*/
+    /*grid-template-columns: 1fr 1fr;*/
     justify-content: center;
     gap: 1.2rem;
 }
@@ -67,5 +68,7 @@
     .container.contact__container {
         width: var(--container-width-sm);
         gap: 2rem;
-    }
+        /*display: flex;*/
+        /*flex-direction: column;*/
+        /*grid-template-columns: fit-content(100%);*/}
 }
